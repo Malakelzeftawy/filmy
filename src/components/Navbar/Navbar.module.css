@@ -1,0 +1,23 @@
+
+
+
+.navbar {
+    color: white;
+}
+
+
+.navbar :global(.menu){
+    position: relative;
+}
+
+.navbar :global(.list) {
+    position: absolute;
+    bottom: -40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all 200ms linear;
+}
+.navbar :global(.menu:hover .list){
+    opacity: 1;
+}

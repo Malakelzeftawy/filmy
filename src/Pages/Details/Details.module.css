@@ -1,0 +1,12 @@
+.details {
+    color: white;
+}
+.details :global(.content){
+    bottom:-130px;
+    transition: all linear 300ms;
+    background-image: linear-gradient(rgb(0,0,0,0.4) , rgb(0,0,0,0.9));
+
+}
+.details :global(.movie:hover .content){
+    bottom: 0;
+}
